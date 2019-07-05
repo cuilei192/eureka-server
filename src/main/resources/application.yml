@@ -3,12 +3,12 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: eurka-server
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http:192.168.204.130:8761/eureka/
+      defaultZone: http://192.168.204.130:8761/eureka/
 
 spring:
   application:
