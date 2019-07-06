@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: eurka-server
+    hostname: eureka-server
   client:
     registerWithEureka: false
     fetchRegistry: false
@@ -16,4 +16,4 @@ eureka:
 
 spring:
   application:
-    name: eurka-server
+    name: eureka-server
